@@ -7,18 +7,43 @@
     <title>Desisões</title>
 </head>
 <body>
-    <h1>Exemplo 6</h1>
+    <h1>Exemplo 3</h1>
 <?php
 
 
-//A mensagem "Reprovado", se a média for menor do que sete;
 
-echo "<br><br>";
 echo "<br>";
-$nota =10;
-if($nota < 7){
-    echo "Reprovado(a)";
+$sexo = "c";
+switch ($sexo){
+    case 'f':
+        echo "Feminino";
+        break;
+    case 'm':
+        echo "Masculino";
+        break;
+    default:
+        echo "Sexo Invalido";
+        break;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
